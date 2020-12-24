@@ -1,0 +1,15 @@
+.output__result__container {
+	width: 15rem;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.output__label {
+	margin: 0.3rem 0rem 0.3rem 0rem;
+}
+
+.output__result {
+	margin: 0.3rem 0rem 0.3rem 0rem;
+	color: red;
+}

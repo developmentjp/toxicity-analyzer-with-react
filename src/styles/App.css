@@ -1,0 +1,54 @@
+@import 'FormComponent.css';
+@import 'FormOutput.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Inconsolata', monospace;
+}
+
+body {
+	padding: 2rem 20%;
+	background: url('https://www.wallpaperup.com/uploads/wallpapers/2014/04/19/338365/6b601fe0f07102aea53be0ad719b2dae.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+/* .background-img {
+	padding: 2rem 20%;
+	background: url('https://www.wallpaperup.com/uploads/wallpapers/2014/04/19/338365/6b601fe0f07102aea53be0ad719b2dae.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+} */
+.App {
+	min-height: 90vh;
+	padding: 1rem;
+	padding-top: 3.5rem;
+	margin: 0rem 2rem;
+	border: 2px solid rgb(57, 131, 241);
+	border-radius: 2rem;
+	background: rgba(0, 44, 109, 0.568);
+	text-align: center;
+}
+.App__header {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(118, 218, 252);
+}
+
+.App__logo {
+	height: 100%;
+	width: auto;
+}
